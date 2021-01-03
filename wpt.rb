@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'cli/ui'
+
 module WPT
   class Start
     def say_hello
@@ -8,4 +10,4 @@ module WPT
   end
 end
 
-puts WPT::Start.new.say_hello
+puts CLI::UI.fmt "{{green:#{WPT::Start.new.say_hello}}}"

@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 
+gem 'cli-ui'
 gem 'pry-byebug'
 gem 'rspec'
 gem 'rubocop', require: false
