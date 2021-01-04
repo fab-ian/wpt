@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './wpt'
+require './wpt/wpt'
 
 describe WPT::Start do
   it 'say Hello' do
