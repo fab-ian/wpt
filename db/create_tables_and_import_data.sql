@@ -8,3 +8,9 @@ CREATE TABLE IF NOT EXISTS stops (
 
 CREATE INDEX IF NOT EXISTS stops_name ON stops(stop_name); 
 
+CREATE TABLE IF NOT EXISTS my_stops (
+  id INTEGER  PRIMARY KEY AUTOINCREMENT,
+  stop_id INTEGER,
+  FOREIGN KEY(stop_id) REFERENCES stops(id)
+);
+
