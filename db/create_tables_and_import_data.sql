@@ -1,11 +1,10 @@
-CREATE TABLE stops (
+CREATE TABLE IF NOT EXISTS stops (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  stop_name VARCHAR(50),
-  latitude REAL,
-  longitude REAL,
-  post VARCHAR(2)
+  stop_name VARCHAR(50) NOT NULL,
+  latitude REAL NOT NULL,
+  longitude REAL NOT NULL,
+  post VARCHAR(2) NOT NULL
 );
 
-CREATE INDEX stops_name ON stops(stop_name); 
+CREATE INDEX IF NOT EXISTS stops_name ON stops(stop_name); 
 
-INSERT INTO stops (stop_name, latitude, longitude, post) VALUES('Sady Żoliborskie', 52.264000, 20.973129, '01');

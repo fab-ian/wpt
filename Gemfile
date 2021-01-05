@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'cli-ui'
+gem 'httparty'
 gem 'pry-byebug'
 gem 'rspec'
 gem 'rubocop', require: false

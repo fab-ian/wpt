@@ -7,6 +7,8 @@ require 'sqlite3'
 
 require './wpt/setup/setup'
 require './wpt/setup/prepare_sql_script'
+require './wpt/api/base'
+require './wpt/api/fetch_stops'
 
 module WPT
   class Start
