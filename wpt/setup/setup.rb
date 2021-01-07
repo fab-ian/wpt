@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'tty-spinner'
 require './wpt/api/fetch_stops'
 require './wpt/setup/prepare_sql_script'
 
@@ -7,17 +8,18 @@ module WPT
   module Setup
     class Setup
       def call
-        CLI::UI::Spinner.spin('Create DB') { create_sqlite_db3 }
-        CLI::UI::Spinner.spin('Fetch Stops data using API') { fetch_stops_data }
-        CLI::UI::Spinner.spin('Prepare SQL Script') { prepare_sql_script }
-        CLI::UI::Spinner.spin('Execute SQL Script') { execute_sql_script }
+        TTY::Spinner
+          .new('[:spinner] Fetch Stops data using API', format: :arrow_pulse)
+          .run('(done!)') { |_spinner| fetch_stops_data }
+        TTY::Spinner
+          .new('[:spinner] Prepare SQL Script', format: :arrow_pulse)
+          .run('(done!)') { |_spinner| prepare_sql_script }
+        TTY::Spinner
+          .new('[:spinner] Execute SQL Script', format: :arrow_pulse)
+          .run('(done!)') { |_spinner| execute_sql_script }
       end
 
       private
-
-      def create_sqlite_db3
-        SQLite3::Database.new 'db/wpt.db'
-      end
 
       def fetch_stops_data
         @stops = WPT::API::FetchStops.new.fetch

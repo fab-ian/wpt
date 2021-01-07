@@ -3,7 +3,6 @@ GEM
   specs:
     ast (2.4.1)
     byebug (11.1.3)
-    cli-ui (1.4.0)
     coderay (1.1.3)
     diff-lcs (1.4.4)
     httparty (0.18.1)
@@ -17,6 +16,8 @@ GEM
     parallel (1.20.1)
     parser (3.0.0.0)
       ast (~> 2.4.1)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -54,19 +55,33 @@ GEM
     sqlite3 (1.4.2)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    tty-color (0.6.0)
+    tty-cursor (0.7.1)
+    tty-prompt (0.23.0)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.9.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.1)
+    tty-spinner (0.9.3)
+      tty-cursor (~> 0.7)
     unicode-display_width (1.7.0)
+    wisper (2.0.1)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  cli-ui
   httparty
   pry-byebug
   rspec
   rubocop
   sqlite3
   terminal-table
+  tty-prompt
+  tty-spinner
 
 BUNDLED WITH
    2.2.3

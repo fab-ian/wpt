@@ -1,12 +1,13 @@
 # frozen_string_literal: true
 
 require 'optparse'
-require 'cli/ui'
 require 'pry-byebug'
 require 'sqlite3'
+require 'tty-prompt'
 
 require './wpt/setup/setup'
 require './wpt/stop/stop_list'
+require './wpt/stop/find'
 
 module WPT
   DB_NAME = 'wpt.db'
@@ -19,15 +20,10 @@ module WPT
   end
 
   def self.parse_arguments
-    CLI::UI::StdoutRouter.enable
-
     OptionParser.new do |opts|
-      opts.on('-s', '--setup', 'Setup database and import Stop information from API') do
-        Setup::Setup.new.call
-      end
-      opts.on('-l', '--list', 'Show my Stops') do
-        Stop::StopList.new.call
-      end
+      opts.on('-s', '--setup', 'Setup database and import Stop information from API') { Setup::Setup.new.call }
+      opts.on('-l', '--list', 'Show my Stops') { Stop::StopList.new.call }
+      opts.on('-f', '--find', 'Find your bus/tram stop') { Stop::Find.new.call }
     end.parse!
   end
 end

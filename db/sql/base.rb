@@ -3,12 +3,12 @@
 module DB
   module SQL
     class Base
-      def execute
-        WPT::DB_HANDLER.execute query, arg
+      def initialize(args = [])
+        @args = args
       end
 
-      def arg
-        []
+      def execute
+        WPT::DB_HANDLER.execute query, @args
       end
     end
   end
