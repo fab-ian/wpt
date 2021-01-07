@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'terminal-table'
+require './db/sql/stop_list'
 
 module WPT
   module Stop

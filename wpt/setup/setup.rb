@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require './wpt/api/fetch_stops'
+require './wpt/setup/prepare_sql_script'
+
 module WPT
   module Setup
     class Setup

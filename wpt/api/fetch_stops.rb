@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require './wpt/api/base'
+
 module WPT
   module API
     class FetchStops < Base

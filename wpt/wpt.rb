@@ -6,12 +6,7 @@ require 'pry-byebug'
 require 'sqlite3'
 
 require './wpt/setup/setup'
-require './wpt/setup/prepare_sql_script'
-require './wpt/api/base'
-require './wpt/api/fetch_stops'
 require './wpt/stop/stop_list'
-require './db/sql/base'
-require './db/sql/stop_list'
 
 module WPT
   DB_NAME = 'wpt.db'

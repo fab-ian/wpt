@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require './db/sql/base'
+
 module DB
   module SQL
     class StopList < Base
