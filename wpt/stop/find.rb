@@ -11,7 +11,7 @@ module WPT
         prompt = TTY::Prompt.new
         @key_word = prompt.ask('Enter your bus/tram stop name: ', required: true)
         @result = search_for_stops
-        @chosen_stop = prompt.select('Choose your stop...', convert_data)
+        @stop_id = prompt.select('Choose your stop...', convert_data)
         add_stop
         StopList.new.call
       rescue StandardError
@@ -29,7 +29,7 @@ module WPT
       end
 
       def add_stop
-        DB::SQL::AddStop.new([@chosen_stop]).execute
+        DB::SQL::AddStop.new([@stop_id]).execute
       end
     end
   end

@@ -2,7 +2,9 @@
 
 source 'https://rubygems.org'
 
+gem 'geokit'
 gem 'httparty'
+gem 'pastel'
 gem 'pry-byebug'
 gem 'rspec'
 gem 'rubocop', require: false

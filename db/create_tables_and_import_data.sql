@@ -14,3 +14,13 @@ CREATE TABLE IF NOT EXISTS my_stops (
   FOREIGN KEY(stop_id) REFERENCES stops(id)
 );
 
+CREATE TABLE IF NOT EXISTS distances (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  line VARCHAR(4) NOT NULL,
+  latitude REAL NOT NULL,
+  longitude REAL NOT NULL,
+  vehicle_number VARCHAR(10) NOT NULL,
+  brigade VARCHAR(4) NOT NULL,
+  distance REAL NOT NULL
+);
+
