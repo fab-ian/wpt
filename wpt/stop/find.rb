@@ -21,7 +21,7 @@ module WPT
       private
 
       def search_for_stops
-        DB::SQL::SearchStop.new(["%#{@key_word}%"]).execute
+        DB::SQL::SearchStop.new("%#{@key_word}%").execute
       end
 
       def convert_data
@@ -29,7 +29,7 @@ module WPT
       end
 
       def add_stop
-        DB::SQL::AddStop.new([@stop_id]).execute
+        DB::SQL::AddStop.new(@stop_id).execute
       end
     end
   end

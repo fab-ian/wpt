@@ -42,7 +42,7 @@ module WPT
       def nearest_vehicles
         result = ResultView.new
 
-        DB::SQL::NearestVehicles.new([@created]).execute.each do |distance|
+        DB::SQL::NearestVehicles.new(@created).execute.each do |distance|
           puts result.call(distance)
         end
         puts '----'
@@ -63,7 +63,7 @@ module WPT
       end
 
       def stop_position
-        result = DB::SQL::StopInfo.new([@answer[:stop_id]]).execute
+        result = DB::SQL::StopInfo.new(@answer[:stop_id]).execute
         @answer[:latitude] = result.first[0]
         @answer[:longitude] = result.first[1]
       end
@@ -82,7 +82,7 @@ module WPT
           distance = calculate_distance(latitude, longitude)
           @created = Time.new.to_i
 
-          DB::SQL::AddDistance.new([line, latitude, longitude, vehicle_number, brigade, distance, @created]).execute
+          DB::SQL::AddDistance.new(line, latitude, longitude, vehicle_number, brigade, distance, @created).execute
         end
       end
 

@@ -3,7 +3,7 @@
 module DB
   module SQL
     class Base
-      def initialize(args = [])
+      def initialize(*args)
         @args = args
       end
 
