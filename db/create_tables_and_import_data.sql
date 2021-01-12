@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS distances (
   longitude REAL NOT NULL,
   vehicle_number VARCHAR(10) NOT NULL,
   brigade VARCHAR(4) NOT NULL,
-  distance REAL NOT NULL
+  distance REAL NOT NULL,
+  created INTEGER NOT NULL
 );
 

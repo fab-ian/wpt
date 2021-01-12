@@ -7,8 +7,8 @@ module DB
     class AddDistance < Base
       def query
         <<-SQL
-          INSERT into distances (line, latitude, longitude, vehicle_number, brigade, distance)
-          values(?, ?, ?, ?, ?, ?)
+          INSERT into distances (line, latitude, longitude, vehicle_number, brigade, distance, created)
+          values(?, ?, ?, ?, ?, ?, ?)
         SQL
       end
     end

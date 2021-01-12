@@ -42,7 +42,7 @@ module WPT
       def nearest_vehicles
         pastel = Pastel.new
 
-        DB::SQL::NearestVehicles.new([@answer[:vehicle_number]]).execute.each do |distance|
+        DB::SQL::NearestVehicles.new([@created]).execute.each do |distance|
           puts "Vehicle Number: #{pastel.red(distance[0])} distance: #{pastel.green(distance[1])}"
         end
         puts '----'
@@ -80,8 +80,9 @@ module WPT
           vehicle_number = vehicle_data[:VehicleNumber]
           brigade = vehicle_data[:Brigade]
           distance = calculate_distance(latitude, longitude)
+          @created = Time.new.to_i
 
-          DB::SQL::AddDistance.new([line, latitude, longitude, vehicle_number, brigade, distance]).execute
+          DB::SQL::AddDistance.new([line, latitude, longitude, vehicle_number, brigade, distance, @created]).execute
         end
       end
 
