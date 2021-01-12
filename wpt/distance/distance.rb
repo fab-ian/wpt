@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 require 'geokit'
-require 'pastel'
 require './db/sql/stop_info'
 require './wpt/api/fetch_vehicle_data'
 require './db/sql/add_distance'
 require './db/sql/nearest_vehicles'
+require './wpt/distance/result_view'
 
 module WPT
   module Distance
@@ -40,10 +40,10 @@ module WPT
       end
 
       def nearest_vehicles
-        pastel = Pastel.new
+        result = ResultView.new
 
         DB::SQL::NearestVehicles.new([@created]).execute.each do |distance|
-          puts "Vehicle Number: #{pastel.red(distance[0])} distance: #{pastel.green(distance[1])}"
+          puts result.call(distance)
         end
         puts '----'
       end
