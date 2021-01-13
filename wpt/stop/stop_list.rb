@@ -2,11 +2,22 @@
 
 require 'terminal-table'
 require './db/sql/stop_list'
+require './wpt/requirements'
 
 module WPT
   module Stop
     class StopList
       def call
+        raise 'Requirements' unless WPT::Requirements.new(:list).passed?
+
+        create_table
+      rescue RuntimeError => e
+        puts 'First you must setup the app using `ruby wpt/wpt.rb -s`' if e.message == 'Requirements'
+      end
+
+      private
+
+      def create_table
         rows = []
 
         DB::SQL::StopList.new.execute.each do |stop|

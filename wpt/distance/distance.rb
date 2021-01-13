@@ -6,20 +6,25 @@ require './wpt/api/fetch_vehicle_data'
 require './db/sql/add_distance'
 require './db/sql/nearest_vehicles'
 require './wpt/distance/result_view'
+require './wpt/requirements'
 
 module WPT
   module Distance
     class Distance
-      def call
+      def initialize
         @prompt = TTY::Prompt.new
+      end
 
-        @answer = {}
-        @answer[:stop_id] = @prompt.select('Select your stop:', my_stops)
-        @answer[:vehicle_type] = @prompt.select('Choose vehicle type:', vehicles)
-        @answer[:vehicle_number] = @prompt.ask('Enter vehicle number:', required: true)
+      def call
+        raise 'Requirements' unless WPT::Requirements.new(:distance).passed?
 
+        collect_info_from_tty
         stop_position
         show_distances
+      rescue RuntimeError => e
+        if e.message == 'Requirements'
+          puts 'First you must setup the app using `ruby wpt/wpt.rb -s` or add at least one vehicle stop'
+        end
       end
 
       private
@@ -92,6 +97,13 @@ module WPT
         stop_location = Geokit::LatLng.new(@answer[:latitude], @answer[:longitude])
         vehicle_location = "#{latitude},#{longitude}"
         stop_location.distance_to(vehicle_location)
+      end
+
+      def collect_info_from_tty
+        @answer = {}
+        @answer[:stop_id] = @prompt.select('Select your stop:', my_stops)
+        @answer[:vehicle_type] = @prompt.select('Choose vehicle type:', vehicles)
+        @answer[:vehicle_number] = @prompt.ask('Enter vehicle number:', required: true)
       end
     end
   end
