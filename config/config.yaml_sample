@@ -1,0 +1,9 @@
+general:
+  um_waw_api_key: '' # https://api.um.warszawa.pl/
+  db_name: 'wpt.db'
+
+development:
+  db_path: "db/"
+
+test:
+  db_path: 'spec/fixtures/db/'

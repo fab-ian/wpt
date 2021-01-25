@@ -10,5 +10,6 @@ gem 'rspec'
 gem 'rubocop', require: false
 gem 'sqlite3'
 gem 'terminal-table'
+gem 'tty-config'
 gem 'tty-prompt'
 gem 'tty-spinner'

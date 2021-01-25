@@ -4,16 +4,15 @@ require 'optparse'
 require 'pry-byebug'
 require 'sqlite3'
 require 'tty-prompt'
+require 'tty-config'
 
+require './wpt/settings'
 require './wpt/setup/setup'
 require './wpt/stop/stop_list'
 require './wpt/stop/find'
 require './wpt/distance/distance'
 
 module WPT
-  DB_NAME = 'wpt.db'
-  DB_HANDLER = SQLite3::Database.new "db/#{DB_NAME}"
-
   class Start
     def say_hello
       'Hello World'

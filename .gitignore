@@ -1,1 +1,3 @@
 db/wpt.db
+spec/fixtures/db/wpt.db
+config/config.yaml

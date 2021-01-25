@@ -21,7 +21,7 @@ module WPT
       end
 
       def api_key
-        ENV['WPT_API_KEY']
+        CONFIG.fetch(:general, :um_waw_api_key)
       end
 
       def url
