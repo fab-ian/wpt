@@ -2,11 +2,9 @@
 
 module Spec
   module Support
-    def self.manage_db
-      puts 'remove database if exist'
-      `rm spec/fixtures/db/wpt.db`
-      puts 'create database'
-      `sqlite3 spec/fixtures/db/wpt.db ".read spec/fixtures/db/create_tables_and_import_data.sql"`
+    def self.clean_db
+      WPT::DB_HANDLER.execute('DELETE FROM my_stops')
+      WPT::DB_HANDLER.execute('DELETE FROM distances')
     end
   end
 end

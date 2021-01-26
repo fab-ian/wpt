@@ -3,6 +3,8 @@
 module DB
   module SQL
     class Base
+      attr_accessor :query
+
       def initialize(*args)
         @args = args
       end
