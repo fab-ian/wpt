@@ -3,8 +3,8 @@
 require 'pastel'
 
 module WPT
-  module Distance
-    class ResultView
+  module Views
+    class DistanceResultView
       def initialize
         @pastel = Pastel.new
       end
