@@ -7,19 +7,19 @@ require 'tty-prompt'
 require 'tty-config'
 
 require './wpt/settings'
-require './wpt/setup/setup'
 require './wpt/error_handler'
 require './wpt/stop/stop_list'
 require './wpt/distance/distance'
 
 require './wpt/views/define_stop'
 require './wpt/views/stop_list'
+require './wpt/views/setup'
 
 module WPT
   class Controller
     def parse_arguments
       OptionParser.new do |opts|
-        opts.on('-s', '--setup', 'Setup database and import Stop information from API') { Setup::Setup.new.call }
+        opts.on('-s', '--setup', 'Setup database and import Stop information from API') { setup }
         opts.on('-l', '--list', 'Show my Stops') { list }
         opts.on('-f', '--find', 'Find bus/tram stop') { find  }
         opts.on('-d', '--distance', 'Show distance between my stop and chosen vehicle') { Distance::Distance.new.call }
@@ -35,6 +35,10 @@ module WPT
 
     def list
       execute_task_and_handle_error { @result = Views::StopList.new.call }
+    end
+
+    def setup
+      execute_task_and_handle_error { @result = Views::Setup.new.call }
     end
 
     private
