@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'simplecov'
+SimpleCov.start { add_filter 'spec' }
+
 require './spec/support/manage_db'
 
 ENV['WPT_ENV'] = 'test'

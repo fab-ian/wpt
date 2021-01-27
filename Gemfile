@@ -8,6 +8,7 @@ gem 'pastel'
 gem 'pry-byebug'
 gem 'rspec'
 gem 'rubocop', require: false
+gem 'simplecov', require: false, group: :test
 gem 'sqlite3'
 gem 'terminal-table'
 gem 'tty-config'
