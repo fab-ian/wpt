@@ -1,0 +1,86 @@
+---
+:result:
+- :Lines: '22'
+  :Lon: 21.050833
+  :VehicleNumber: 1247+1248
+  :Time: '2021-01-27 16:44:02'
+  :Lat: 52.2395
+  :Brigade: '6'
+- :Lines: '22'
+  :Lon: 20.979538
+  :VehicleNumber: 1275+1276
+  :Time: '2021-01-27 16:44:02'
+  :Lat: 52.237442
+  :Brigade: '011'
+- :Lines: '22'
+  :Lon: 21.07514
+  :VehicleNumber: 1277+1278
+  :Time: '2021-01-27 16:43:59'
+  :Lat: 52.245815
+  :Brigade: '012'
+- :Lines: '22'
+  :Lon: 20.956963
+  :VehicleNumber: 1413+1414
+  :Time: '2021-01-27 16:44:03'
+  :Lat: 52.2684
+  :Brigade: '014'
+- :Lines: '22'
+  :Lon: 21.012154
+  :VehicleNumber: 1443+1444
+  :Time: '2021-01-27 16:44:02'
+  :Lat: 52.230083
+  :Brigade: '013'
+- :Lines: '22'
+  :Lon: 20.983883
+  :VehicleNumber: '3003'
+  :Time: '2021-01-27 16:43:59'
+  :Lat: 52.23108
+  :Brigade: '7'
+- :Lines: '22'
+  :Lon: 20.980358
+  :VehicleNumber: '3011'
+  :Time: '2021-01-27 14:30:56'
+  :Lat: 52.23661
+  :Brigade: '2'
+- :Lines: '22'
+  :Lon: 20.945349
+  :VehicleNumber: '3018'
+  :Time: '2021-01-27 16:44:01'
+  :Lat: 52.271645
+  :Brigade: '10'
+- :Lines: '22'
+  :Lon: 21.084974
+  :VehicleNumber: '3022'
+  :Time: '2021-01-27 16:44:03'
+  :Lat: 52.244663
+  :Brigade: '4'
+- :Lines: '22'
+  :Lon: 21.048761
+  :VehicleNumber: '3130'
+  :Time: '2021-01-27 16:44:04'
+  :Lat: 52.23754
+  :Brigade: '3'
+- :Lines: '22'
+  :Lon: 21.081205
+  :VehicleNumber: '3217'
+  :Time: '2021-01-27 16:44:03'
+  :Lat: 52.245464
+  :Brigade: '5'
+- :Lines: '22'
+  :Lon: 20.97779
+  :VehicleNumber: '3218'
+  :Time: '2021-01-27 16:44:04'
+  :Lat: 52.262665
+  :Brigade: '1'
+- :Lines: '22'
+  :Lon: 20.982054
+  :VehicleNumber: '3220'
+  :Time: '2021-01-27 16:43:58'
+  :Lat: 52.255672
+  :Brigade: '8'
+- :Lines: '22'
+  :Lon: 20.943727
+  :VehicleNumber: '3221'
+  :Time: '2021-01-27 16:43:59'
+  :Lat: 52.27097
+  :Brigade: '9'

@@ -73,7 +73,7 @@ module WPT
         @answer = {}
         @answer[:stop_id] = @prompt.select('Select your stop:', my_stops)
         @answer[:vehicle_type] = @prompt.select('Choose vehicle type:', vehicles)
-        @answer[:vehicle_number] = @prompt.ask('Enter vehicle number:', required: true)
+        @answer[:line] = @prompt.ask('Enter vehicle number:', required: true)
       end
     end
   end

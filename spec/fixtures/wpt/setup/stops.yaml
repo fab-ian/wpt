@@ -1,0 +1,546 @@
+---
+:result:
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '01'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.248455'
+    :key: szer_geo
+  - :value: '21.044827'
+    :key: dlug_geo
+  - :value: al.Zieleniecka
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '02'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.249078'
+    :key: szer_geo
+  - :value: '21.044443'
+    :key: dlug_geo
+  - :value: Ząbkowska
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '03'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.248998'
+    :key: szer_geo
+  - :value: '21.043983'
+    :key: dlug_geo
+  - :value: al.Zieleniecka
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '03'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.248928'
+    :key: szer_geo
+  - :value: '21.044169'
+    :key: dlug_geo
+  - :value: al.Zieleniecka
+    :key: kierunek
+  - :value: '2020-11-19 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '04'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.249905'
+    :key: szer_geo
+  - :value: '21.041726'
+    :key: dlug_geo
+  - :value: Ząbkowska
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '04'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.249968'
+    :key: szer_geo
+  - :value: '21.041587'
+    :key: dlug_geo
+  - :value: Ząbkowska
+    :key: kierunek
+  - :value: '2020-11-19 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '04'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.249969'
+    :key: szer_geo
+  - :value: '21.041588'
+    :key: dlug_geo
+  - :value: Ząbkowska
+    :key: kierunek
+  - :value: '2020-12-09 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '05'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '1203'
+    :key: id_ulicy
+  - :value: '52.250319'
+    :key: szer_geo
+  - :value: '21.043861'
+    :key: dlug_geo
+  - :value: al.Zieleniecka
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '06'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '1203'
+    :key: id_ulicy
+  - :value: '52.250008'
+    :key: szer_geo
+  - :value: '21.043710'
+    :key: dlug_geo
+  - :value: Dw.Wschodni (Kijowska)
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '06'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '1203'
+    :key: id_ulicy
+  - :value: '52.250078'
+    :key: szer_geo
+  - :value: '21.043848'
+    :key: dlug_geo
+  - :value: Dw.Wschodni (Kijowska)
+    :key: kierunek
+  - :value: '2020-11-19 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '07'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '1203'
+    :key: id_ulicy
+  - :value: '52.250228'
+    :key: szer_geo
+  - :value: '21.043690'
+    :key: dlug_geo
+  - :value: Ząbkowska
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '08'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '1203'
+    :key: id_ulicy
+  - :value: '52.249944'
+    :key: szer_geo
+  - :value: '21.044087'
+    :key: dlug_geo
+  - :value: Dw.Wschodni (Kijowska)
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1001'
+    :key: zespol
+  - :value: '88'
+    :key: slupek
+  - :value: Kijowska
+    :key: nazwa_zespolu
+  - :value: '1203'
+    :key: id_ulicy
+  - :value: '52.249944'
+    :key: szer_geo
+  - :value: '21.044087'
+    :key: dlug_geo
+  - :value: Dw.Wschodni (Kijowska)
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1002'
+    :key: zespol
+  - :value: '01'
+    :key: slupek
+  - :value: Ząbkowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.251325'
+    :key: szer_geo
+  - :value: '21.038457'
+    :key: dlug_geo
+  - :value: Kijowska
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1002'
+    :key: zespol
+  - :value: '02'
+    :key: slupek
+  - :value: Ząbkowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.251790'
+    :key: szer_geo
+  - :value: '21.038592'
+    :key: dlug_geo
+  - :value: Dw.Wileński
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1002'
+    :key: zespol
+  - :value: '03'
+    :key: slupek
+  - :value: Ząbkowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.251616'
+    :key: szer_geo
+  - :value: '21.038379'
+    :key: dlug_geo
+  - :value: Kijowska
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1002'
+    :key: zespol
+  - :value: '04'
+    :key: slupek
+  - :value: Ząbkowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.251880'
+    :key: szer_geo
+  - :value: '21.038002'
+    :key: dlug_geo
+  - :value: Dw.Wileński
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1002'
+    :key: zespol
+  - :value: '06'
+    :key: slupek
+  - :value: Ząbkowska
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.253108'
+    :key: szer_geo
+  - :value: '21.036732'
+    :key: dlug_geo
+  - :value: Dw.Wileński
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '01'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.253739'
+    :key: szer_geo
+  - :value: '21.035454'
+    :key: dlug_geo
+  - :value: Ząbkowska
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '02'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.255298'
+    :key: szer_geo
+  - :value: '21.034611'
+    :key: dlug_geo
+  - :value: Wileńska
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '03'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '0123'
+    :key: id_ulicy
+  - :value: '52.254118'
+    :key: szer_geo
+  - :value: '21.033248'
+    :key: dlug_geo
+  - :value: Park Praski
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '04'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '0123'
+    :key: id_ulicy
+  - :value: '52.255099'
+    :key: szer_geo
+  - :value: '21.036174'
+    :key: dlug_geo
+  - :value: Szwedzka
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '05'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '0123'
+    :key: id_ulicy
+  - :value: '52.254287'
+    :key: szer_geo
+  - :value: '21.033324'
+    :key: dlug_geo
+  - :value: Park Praski
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '06'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '0123'
+    :key: id_ulicy
+  - :value: '52.256048'
+    :key: szer_geo
+  - :value: '21.038309'
+    :key: dlug_geo
+  - :value: ______________________________
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '07'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.253857'
+    :key: szer_geo
+  - :value: '21.035613'
+    :key: dlug_geo
+  - :value: Ząbkowska
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '08'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '2201'
+    :key: id_ulicy
+  - :value: '52.255370'
+    :key: szer_geo
+  - :value: '21.034193'
+    :key: dlug_geo
+  - :value: 11 Listopada
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '09'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '2501'
+    :key: id_ulicy
+  - :value: '52.255999'
+    :key: szer_geo
+  - :value: '21.035241'
+    :key: dlug_geo
+  - :value: Targowa
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '10'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '2501'
+    :key: id_ulicy
+  - :value: '52.255856'
+    :key: szer_geo
+  - :value: '21.035227'
+    :key: dlug_geo
+  - :value: ______________________________
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '11'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: 'null'
+    :key: id_ulicy
+  - :value: '52.256139'
+    :key: szer_geo
+  - :value: '21.035580'
+    :key: dlug_geo
+  - :value: 'null'
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '12'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '2501'
+    :key: id_ulicy
+  - :value: '52.255985'
+    :key: szer_geo
+  - :value: '21.035521'
+    :key: dlug_geo
+  - :value: ______________________________
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '13'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: 'null'
+    :key: id_ulicy
+  - :value: '52.256291'
+    :key: szer_geo
+  - :value: '21.035926'
+    :key: dlug_geo
+  - :value: 'null'
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od
+- :values:
+  - :value: '1003'
+    :key: zespol
+  - :value: '14'
+    :key: slupek
+  - :value: Dw.Wileński
+    :key: nazwa_zespolu
+  - :value: '2501'
+    :key: id_ulicy
+  - :value: '52.256246'
+    :key: szer_geo
+  - :value: '21.036138'
+    :key: dlug_geo
+  - :value: ______________________________
+    :key: kierunek
+  - :value: '2020-10-01 00:00:00.0'
+    :key: obowiazuje_od

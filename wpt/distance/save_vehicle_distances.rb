@@ -29,7 +29,7 @@ module WPT
       private
 
       def fetch_vehicle_data
-        WPT::API::FetchVehicleData.new([{ type: @answer[:vehicle_type] }, { line: @answer[:vehicle_number] }]).fetch
+        WPT::API::FetchVehicleData.new([{ type: @answer[:vehicle_type] }, { line: @answer[:line] }]).fetch
       end
 
       def calculate_distance(latitude, longitude)

@@ -33,7 +33,11 @@ module WPT
       end
 
       def write_to_file(sql)
-        File.write('db/create_tables_and_import_data.sql', "#{sql}\n", mode: 'a')
+        File.write(script_path, "#{sql}\n", mode: 'a')
+      end
+
+      def script_path
+        CONFIG.fetch(CURRENT_ENV, :db_script)
       end
 
       def correct_stop_name(name)
