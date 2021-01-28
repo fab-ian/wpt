@@ -4,6 +4,8 @@ general:
 
 development:
   db_path: "db/"
+  db_script: 'db/create_tables_and_import_data.sql' 
 
 test:
   db_path: 'spec/fixtures/db/'
+  db_script: 'spec/fixtures/wpt/setup/create_tables_and_import_data.sql'
