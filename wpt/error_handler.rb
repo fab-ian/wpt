@@ -8,6 +8,9 @@ module WPT
         puts('First you must setup the app using `ruby wpt/wpt.rb -s`')
       when 'NoStopFounds'
         puts('No stop found :( Try less complex syntax.')
+      else
+        puts 'Unknown Error:!'
+        puts result[:error]
       end
     end
   end
